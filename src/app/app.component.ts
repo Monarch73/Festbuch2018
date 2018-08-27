@@ -57,8 +57,8 @@ export class AppComponent {
         const imgTemp = new Image(
           _i,
           {
-            img: 'http://www.monarch.de/joomla/images/schuetzenjahr/2018/Festbuch/Eustachius_FestBuch_2018_' + (_i + 1) + '.jpg',
-            description: ''
+            img: '/images/festheft_2018/Eustachius_FestBuch_2018_' + (_i + 1) + '.jpg',
+            description: 'Seite ' + (_i + 1)
           }
         );
         this.images.push(imgTemp);
